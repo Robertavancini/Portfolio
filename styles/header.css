@@ -1,0 +1,43 @@
+header {
+    color: var(--white-color);
+    backdrop-filter: blur(10px);
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.638)
+    
+}
+
+header ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 5px 20px;
+    
+}
+
+header ul li a:hover {
+    color: var(--primary-color);
+    transition: .5s;
+}
+
+header ul li button a:hover {
+    color: var(--white-color);
+}

@@ -1,0 +1,91 @@
+section {
+    
+    background-color: var(--dark-color);
+    height: 500px;
+}
+
+.section-description {
+    background-color: #0c0e23;
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 20px;
+    color: var(--white-color);
+   
+}
+
+.card-experience {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+    background: linear-gradient(3600deg,#e80202 0%, #891834 100%);
+}
+
+.card-experience:hover {
+    background: linear-gradient(3600deg,#d81a1a 0%, #891834 100%);
+    box-shadow: 0 0 10px var(--primary-color);
+    transform: translateY(-20px);
+    transition: 0.5s;
+
+    
+}
+ 
+.progress-bar {
+    
+    width: 100%;
+    background-color: #0c0e23;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.html {
+    width: 67%;
+    background-color: green;
+    
+    border-radius: 20px;
+}
+
+.css {
+    width: 75%;
+    background-color: green;
+    
+    border-radius: 20px;
+}
+
+.js {
+    width: 45%;
+    background-color: green;
+    
+    border-radius: 20px;
+}
+
+
+
+
+
+.card-experience button {
+    margin: 20px 0;
+    background-color: var(--dark-color);
+}
+
+.card-experience button:hover {
+    color: var(--dark-color);
+    background-color: rgba(255, 0, 0, 0.225);
+    border: 1px solid rgba(0, 0, 0, 0.5) ;
+    box-shadow: 0 0 8px #0c0e23d3;
+}
+.card-experience i {
+    font-size: 100px;
+    margin: 20px 0;
+    
+    
+}
+
+.card-container {
+    text-align: center;
+    gap: 2rem;
+   
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}

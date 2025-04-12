@@ -1,14 +1,10 @@
 main {
-  max-width: 100%;
-  margin: auto;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  height: 700px;
-
+  width: 100%;
+  
+  padding: 50px;
   background-image: url("../assets/images/background-2.jpg");
   background-repeat: no-repeat;
-
+  
   background-size: 100% 100%;
 }
 
@@ -21,20 +17,21 @@ main div.main-description {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.638);
+  font-size: 20px;
 
 }
 
  .main-container {
-    width: 1200px;
+    width: 100%;
   display: flex;
   align-items: center;
-  margin: 100px 20px;
-  gap: 5rem;
   
+  gap: 5rem;
+  margin: 100px auto;
 }
 
 main div img {
   width:100%;
-  display: flex;
+  
   
 }

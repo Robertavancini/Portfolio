@@ -10,13 +10,15 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.638)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.638);
+    z-index: 999;
     
 }
 
 header ul {
     display: flex;
     gap: 1rem;
+    padding: 10px;
     align-items: center;
 }
 
@@ -38,6 +40,4 @@ header ul li a:hover {
     transition: .5s;
 }
 
-header ul li button a:hover {
-    color: var(--white-color);
-}
+

@@ -19,6 +19,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     width: 100vw;
     height: 100vh;
@@ -27,25 +29,36 @@ background-color: var(--dark-color);
 }
 
 button {
-    width: 150px;
-    background-color: var(--primary-color);
+    transition: .5s;
+    background-color: #050618;
+    box-shadow: 0 0 20px var(--primary-color);
+    padding: 10px 30px;
     border: none;
-    padding: 10px 20px ;
-    border-radius: 10px;
-    color: white;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 10px;
 }
-
-
 
 button:hover {
-   transition: .5s;
-    background-color: #bc0303;
+    transition: .5s;
+    background-color: #363740;
     box-shadow: 0 0 20px var(--primary-color);
+}
+
+button a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 10px 20px;
     
 }
+button > a:hover {
+    transition: .5s;
+    color: var(--light-color);
+}
+
 
 span {
     color: var(--light-color);
 }
 
- 
+

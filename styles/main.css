@@ -15,27 +15,25 @@ main div.main-description {
   flex-direction: column;
   justify-content: center;
   text-align: start;
-  background: linear-gradient(270deg,#e80202e8 0%, #891834 100%);
+  background: linear-gradient(270deg, #e80202e8 0%, #891834 100%);
   gap: 2rem;
   padding: 20px;
   border-radius: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.638);
   font-size: 1.5rem;
-
 }
 
- .main-container {
-    max-width: 1200px;
-    min-width: 50%;
+.main-container {
+  max-width: 1200px;
+  min-width: 50%;
   display: flex;
-  
-  
+
   gap: 5rem;
   margin: 100px auto;
 }
 
- div.img-container {
-  width:100%;
+div.img-container {
+  width: 100%;
   max-width: 300px;
   max-height: 300px;
   display: flex;
@@ -45,8 +43,6 @@ main div.main-description {
   box-shadow: 0 0 10px var(--dark-color);
   border-radius: 100%;
   margin: auto;
-
-  
 }
 
 .img-container img {
@@ -55,21 +51,18 @@ main div.main-description {
   padding: 10px;
 }
 
-@media (max-width: 960px ) {
-
- main div.main-description {
+@media (max-width: 960px) {
+  main div.main-description {
     font-size: 1.2rem;
   }
 
   .main-container {
     flex-direction: column;
-    
-}
+  }
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
   main div.main-description {
     font-size: 1rem;
   }
-  
 }

@@ -70,76 +70,101 @@
       </div>
 
       <div class="card-container">
+       
+       
+
         <div class="card-experience">
           <i
-            ><img style="width: 222px" src="assets/images/html-5.png" alt=""
+            ><img style="width: 200px" id="card-image-html" src="assets/images/html-5.png" alt=""
           /></i>
-
           <div class="habilities-bar">
             <div class="skills">
               <h2>HTML</h2>
               <div class="progress-bar">
-                <div class="html"><span>67%</span></div>
-              </div>
+                <div class="html"><span>67%</span>
             </div>
+
+            </div class="hidden-container">
+            <button onclick="ToggleText('hidden-text-html', 'card-image-html')" > learn more </button>
+            <p id="hidden-text-html" style="display: none;">I apply semantic HTML to organize content and ensure accessibility. In CSS, I’m proficient with various selectors, customizing components such as buttons and forms, and using Flexbox and Grid to create modern, responsive layouts. I also utilize media queries to adapt designs for different screen sizes.</p>
+          </div>
+
           </div>
         </div>
 
         <div class="card-experience">
           <i
-            ><img style="width: 300px" src="assets/images/logo-css.png" alt=""
+            ><img style="width: 200px; padding-bottom: 30px;" id="card-image-css" src="assets/images/logo-css.png" alt=""
           /></i>
           <div class="habilities-bar">
             <div class="skills">
               <h2>CSS</h2>
               <div class="progress-bar">
-                <div class="css"><span>75%</span></div>
-              </div>
+                <div class="css"><span>75%</span>
             </div>
+
+            </div class="hidden-container">
+            <button onclick="ToggleText('hidden-text-css', 'card-image-css')" > learn more </button>
+            <p id="hidden-text-css" style="display: none;">In CSS, I know how to work with various selectors (class, id, form input, :focus) and customize the appearance of forms, buttons, inputs and other interface elements. I have experience with Flexbox and Grid to create responsive and well-distributed layouts, as well as using media queries to adapt the design to different screen sizes.</p>
+          </div>
+
           </div>
         </div>
 
         <div class="card-experience">
           <i
-            ><img
-              style="width: 220px"
-              src="assets/images/javascript-logo.png"
-              alt=""
+            ><img style="width: 200px" id="card-image-js" src="assets/images/javascript-logo.png" alt=""
           /></i>
-
           <div class="habilities-bar">
             <div class="skills">
               <h2>JavaScript</h2>
               <div class="progress-bar">
-                <div class="js"><span>45%</span></div>
-              </div>
+                <div class="js"><span>45%</span>
             </div>
+
+            </div class="hidden-container">
+            <button onclick="ToggleText('hidden-text-js', 'card-image-js')" > learn more </button>
+            <p id="hidden-text-js" style="display: none;">With JavaScript, I can manipulate the DOM, create dynamic interactions, and add functionality to interface elements—such as the “Learn More” button that toggles content visibility within the skills cards. I also integrate external libraries like Font Awesome and follow best practices in code organization and file separation (HTML, CSS, JS).</p>
+          </div>
+
           </div>
         </div>
 
         <div class="card-experience">
-          <i><img src="assets/images/react-logo.png" alt="" /></i>
-
+          <i
+            ><img style="width: 200px; margin-top: 50px; padding-bottom: 60px;" id="card-image-react" src="assets/images/react-logo.png" alt=""
+          /></i>
           <div class="habilities-bar">
             <div class="skills">
               <h2>React</h2>
               <div class="progress-bar">
-                <div class="react"><span>10%</span></div>
-              </div>
+                <div class="react"><span>10%</span>
             </div>
+
+            </div class="hidden-container">
+            <button onclick="ToggleText('hidden-text-react', 'card-image-react')" > learn more </button>
+            <p id="hidden-text-react" style="display: none;">I have little knowledge of this skill, as I study more about it, I update the portfolio, with the respective skills. :P <p>
+          </div>
+
           </div>
         </div>
 
         <div class="card-experience">
-          <i> <img src="assets/images/bootstrap-logo.png" alt="" /></i>
-
+          <i
+            ><img style="width: 200px; margin-top: 50px;" id="card-image-bootstrap" src="assets/images/bootstrap-logo.png" alt=""
+          /></i>
           <div class="habilities-bar">
             <div class="skills">
               <h2>Bootstrap</h2>
               <div class="progress-bar">
-                <div class="bootstrap"><span>30%</span></div>
-              </div>
+                <div class="bootstrap"><span>30%</span>
             </div>
+
+            </div class="hidden-container">
+            <button  onclick="ToggleText('hidden-text-bootstrap', 'card-image-bootstrap')" > learn more </button>
+            <p id="hidden-text-bootstrap" style="display: none;">I have little knowledge of this skill, as I study more about it, I update the portfolio, with the respective skills.:P </p>
+          </div>
+
           </div>
         </div>
       </div>
@@ -309,14 +334,8 @@
       </div>
     </div>
 
-    <script>
-      let navBar = document.querySelector(".nav-bar");
-      let menuIcon = document.querySelector(".mobile-icon");
-
-      function clickMenu() {
-        navBar.classList.toggle("active");
-        menuIcon.classList.toggle("active");
-      }
+    <script src="assets/js/script.js"></script>
+      
     </script>
   </body>
 </html>

@@ -38,6 +38,7 @@
 }
 
 .contact-container input {
+    width: 100%;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -45,6 +46,7 @@
 }
 
 .contact-container textarea {
+    width: 100%;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.349);
 }
@@ -52,3 +54,4 @@
     margin: 10px auto;
     color: var(--white-color);
 }
+
